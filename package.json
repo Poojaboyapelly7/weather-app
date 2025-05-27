@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+  "start": "concurrently \"cd weather-backend && npm run dev\" \"cd weather-frontend && npm run dev\""
+}
+}
